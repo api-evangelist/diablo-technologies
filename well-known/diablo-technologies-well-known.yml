@@ -1,0 +1,54 @@
+generated: '2026-07-20'
+method: probed
+source: https://www.diablo-technologies.com/
+host: https://www.diablo-technologies.com
+result: none
+note: 'The host returns HTTP 200 with the site homepage for EVERY path, including known-nonexistent
+  control paths. All 200 responses below are soft-404s serving text/html, not real well-known documents.
+  No document was saved. This host is additionally NOT operated by Diablo Technologies Inc. — the domain
+  lapsed and was re-registered on 2023-10-08 and now serves an unrelated consumer-gadget blog — so even a
+  genuine document here would not be attributable to this company.'
+soft_404_control:
+  path: /zzz-no-such-path-9182
+  status: 200
+  content_type: text/html
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  real: false
+  reason: soft-404 (text/html homepage)
+- path: /.well-known/openid-configuration
+  status: 200
+  real: false
+  reason: soft-404 (text/html homepage)
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  real: false
+  reason: soft-404 (text/html homepage)
+- path: /.well-known/api-catalog
+  status: 200
+  real: false
+  reason: soft-404 (text/html homepage)
+- path: /.well-known/ai-plugin.json
+  status: 200
+  real: false
+  reason: soft-404 (text/html homepage)
+- path: /llms.txt
+  status: 200
+  real: false
+  reason: soft-404 (text/html homepage)
+- path: /openapi.json
+  status: 200
+  real: false
+  reason: soft-404 (text/html homepage)
+other_probes:
+- check: github organization diablo-technologies
+  result: 404
+- check: github organization diablotechnologies
+  result: 404
+- check: archived /developers /developer /api /docs on diablo-technologies.com
+  result: no snapshots in the Internet Archive
+- check: dns A record diablo-technologies.com (apex)
+  result: none
+- check: dns A record diablotechnologies.com
+  result: none
