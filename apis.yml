@@ -36,7 +36,7 @@ x-status: defunct
 x-api-surface: none
 x-domain-status: 'reregistered-unrelated: diablo-technologies.com re-registered 2023-10-08 (NETIM SAS);
   www.diablo-technologies.com now serves an unrelated consumer-gadget blog'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
