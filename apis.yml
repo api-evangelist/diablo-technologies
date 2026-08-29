@@ -37,6 +37,9 @@ description: 'Diablo Technologies Inc. was an enterprise memory technology compa
   organization exists under either diablo-technologies or diablotechnologies. This profile is retained
   as a historical company record with no API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/diablo-technologies/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Diablo positioned itself as a silicon and module vendor selling through server and storage OEM partners rather than as a software or platform company: it never published a public API, developer portal"
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
