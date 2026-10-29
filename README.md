@@ -64,21 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Diablo Technologies Inc. was an enterprise memory technology company backed by Battery Ventures. It developed Memory Channel Storage (MCS), an architecture that placed flash storage directly on the DDR memory bus, and productized it as Memory1, a flash-as-DRAM DIMM marketed as delivering up to 256 GB of memory per module and 4 TB per dual-socket server.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: battery-ventures
+Diablo Technologies Inc. was an enterprise memory technology company backed by Battery Ventures. It developed Memory Channel Storage (MCS), an architecture that placed flash storage directly on the DDR memory bus, and productized it as Memory1, a flash-as-DRAM DIMM the company marketed as delivering up to 256 GB of memory per module and 4 TB per dual-socket server. Diablo positioned itself as a silicon and module vendor selling through server and storage OEM partners rather than as a software or platform company: it never published a public API, developer portal, SDK, or any machine-readable specification, and no developer surface appears anywhere in the archived record of its website. The company appears to be defunct. Its corporate site is last archived intact in 2017, the domain subsequently served unrelated SEO spam, the diablo-technologies.com registration lapsed and was re-registered on 2023-10-08 through a different registrar, and the hostname today serves an unrelated consumer-gadget review blog with no connection to the memory business. No GitHub organization exists under either diablo-technologies or diablotechnologies. This profile is retained as a historical company record with no API surface.
 
-## API surface
+**Areas:** Company · Hardware · Memory · Enterprise Storage · Semiconductors · Data Center Infrastructure · Defunct
 
-**None.** Diablo was a silicon and memory-module vendor selling through server and storage OEM partners. It published no public API, developer portal, SDK, CLI, or machine-readable specification, and no developer surface appears anywhere in the archived record of its site.
+## Diablo Technologies on APIs.io (historical record)
 
-## Status
+Everything profiled for Diablo Technologies is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/diablo-technologies/](https://apis.io/providers/diablo-technologies/)** — or go straight to one of the APIs or properties below.
 
-The company appears to be defunct:
+## API Evangelist rating
 
-- The corporate site is last archived intact in 2017; the domain subsequently served unrelated SEO spam.
-- `diablo-technologies.com` lapsed and was re-registered on 2023-10-08 through a different registrar.
-- `www.diablo-technologies.com` today serves an unrelated consumer-gadget review blog with no connection to the memory business.
-- No GitHub organization exists under `diablo-technologies` or `diablotechnologies`.
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
 
-Probe results are recorded in [`well-known/diablo-technologies-well-known.yml`](well-known/diablo-technologies-well-known.yml). This profile is retained as a historical company record.
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Diablo Technologies: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/diablo-technologies/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
